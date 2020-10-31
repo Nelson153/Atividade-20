@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>getElementById e onclick </h3>
+
+    <input type="text" placeholder="Informe um texto" id="valor">
+
+    <button onclick="minhaFunção()"> Clique-me </button>
+
+    <div id="resultato"></div>
+
+        <script>
+
+            function minhaFunção(){
+
+                // var valor = document.querySelector('#valor').value;
+                var valor = document.getElementById('valor').value;
+
+                // document.querySelector('#resultado').innerHTML = valor;
+                document.getElementById('resultao').innerHTML = valor;
+            }
+        </script>
+        <br><br><br>
+
+        <div id="fruta">
+            Abacaxí
+        </div>
+        <br>
+        <div class="carro"> Gol</div>
+        <div class="carro"> Camaro</div>
+
+        <script src="js/App.js"> </script>
+
+    </body>
+</html>
